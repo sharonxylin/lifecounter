@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/lstmain"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:id="@+id/p0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="30dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/p0name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/p0life"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/p0addOne"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5sp"
+                    android:text="+" />
+
+                <Button
+                    android:id="@+id/p0addFive"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5sp"
+                    android:text="+5"
+
+                    />
+
+                <Button
+                    android:id="@+id/p0minusOne"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5sp"
+                    android:text="-"
+
+                    />
+
+                <Button
+                    android:id="@+id/p0minusFive"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="-5" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/p1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="30dp"
+
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/p1name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/p1life"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/p1addOne"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5sp"
+                    android:text="+" />
+
+                <Button
+                    android:id="@+id/p1addFive"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5sp"
+                    android:text="+5"
+
+                    />
+
+                <Button
+                    android:id="@+id/p1minusOne"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5sp"
+                    android:text="-"
+
+                    />
+
+                <Button
+                    android:id="@+id/p1minusFive"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="-5" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/p2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="30dp"
+
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/p2name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/p2life"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/p2addOne"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5sp"
+                    android:text="+" />
+
+                <Button
+                    android:id="@+id/p2addFive"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5sp"
+                    android:text="+5"
+
+                    />
+
+                <Button
+                    android:id="@+id/p2minusOne"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5sp"
+                    android:text="-"
+
+                    />
+
+                <Button
+                    android:id="@+id/p2minusFive"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="-5" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/p3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="30dp"
+
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/p3name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/p3life"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/p3addOne"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5sp"
+                    android:text="+" />
+
+                <Button
+                    android:id="@+id/p3addFive"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5sp"
+                    android:text="+5"
+
+                    />
+
+                <Button
+                    android:id="@+id/p3minusOne"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5sp"
+                    android:text="-"
+
+                    />
+
+                <Button
+                    android:id="@+id/p3minusFive"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="-5" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lose"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="30dp"
+
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/loseMessage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
